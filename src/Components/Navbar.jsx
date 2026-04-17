@@ -6,10 +6,22 @@ const Navbar = () => {
   return (
     <div>
 
+<h1>ATELIER</h1>
+
+<ul>
+    <a href=""><li></li></a>
+</ul>
+
+
+
+
+
+    
+      <div>
         <IoIosSearch />
         <FaRegUser />
-<MdOutlineShoppingBag />
-      <h3>sdfdsf</h3>
+        <MdOutlineShoppingBag />
+      </div>
     </div>
   );
 };
