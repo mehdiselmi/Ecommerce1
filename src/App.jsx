@@ -1,5 +1,4 @@
-import React from "react";
-import { CartProvider } from "./context/cartContext";
+
 import Navbar from "./components/Navbar.jsx";
 import Women from "./components/Women.jsx";
 import Men from "./components/Men.jsx";
@@ -12,7 +11,7 @@ import Home from "./pages/Home.jsx";
 const App = () => {
   return (
     <BrowserRouter>
-      <CartProvider>
+
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,8 +20,7 @@ const App = () => {
           <Route path="/collections" element={<Collections />} />
           <Route path="/about" element={<About />} />
         </Routes>
-      </CartProvider>
-    </BrowserRouter>
+   </BrowserRouter>
   );
 };
 

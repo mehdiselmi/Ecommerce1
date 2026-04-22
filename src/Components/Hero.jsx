@@ -33,7 +33,10 @@ const Hero = () => {
           className="w-130 h-140 rounded-lg"
         />
         <div className="text-black flex justify-center items-center bg-white rounded-lg  absolute -bottom-7 -left-6 shadow-2xl  w-40 h-25">
-          <p>NEW ARRIVALS <br /> <span className="font-semibold text-xl">Spring '25</span></p>
+          <p>
+            NEW ARRIVALS <br />{" "}
+            <span className="font-semibold text-xl">Spring '25</span>
+          </p>
         </div>
       </div>
     </div>
