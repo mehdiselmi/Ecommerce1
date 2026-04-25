@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Featured = () => {
   return (
-    <div className="mt-42">
+    <div className="mt-42 ">
       <div className="text-center">
         <h1 className="text-3xl pb-3.5 font-semibold">Featured Pieces</h1>
         <p className="">
